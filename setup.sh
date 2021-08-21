@@ -6,4 +6,4 @@ port = $PORT\n\
 enableCORS = false\n\
 headles = true\n\
 \n\
-" > ~.streamkut/config.toml
+" > ~.streamlit/config.toml
