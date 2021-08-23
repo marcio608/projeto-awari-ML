@@ -15,8 +15,6 @@ import streamlit as st
 
 st.title('Previsor de tendências de ações da Bolsa de Valores')
 
-image = Image.open('C:/Users/marci/Desktop/projeto Awari/img.jpg')
-st.image(image, use_column_width=True )
 # Usuário digita o nome do ativo
 user_input = st.text_input('Selecione o ativo desejado:', 'FB')
 
