@@ -152,4 +152,5 @@ st.pyplot(fig2)
 # Mostrando os valores reais e os previstos
 
 st.subheader('Valores reais e valores previstos')
-st.write(valid)
+st.dataframe(valid.style.format("{:.4f}"))
+#st.write(valid)
